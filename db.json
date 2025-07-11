@@ -1,0 +1,496 @@
+{
+  "products": [
+    {
+      "_id": "aaaaa",
+      "id": "c5c2",
+      "name": "PC Gaming Pro X1",
+      "description": "A powerful pre-built gaming PC, ideal for next-generation games. Featuring a high-performance processor, liquid cooling, and a case with customizable RGB lighting.",
+      "price": 1899,
+      "image": [
+        "/images/gaming_pc_01.png",
+        "/images/gaming_pc_02.png"
+      ],
+      "category": "Computers",
+      "subCategory": "Pre-built PCs",
+      "sizes": [
+        {
+          "name": "16GB RAM / 1TB SSD",
+          "price": 1899
+        },
+        {
+          "name": "32GB RAM / 1TB SSD",
+          "price": 2049
+        },
+        {
+          "name": "64GB RAM / 2TB SSD",
+          "price": 2399
+        }
+      ],
+      "date": 1751710251546
+    },
+    {
+      "_id": "aaaab",
+      "name": "Ultra Graphics 4080 Video Card",
+      "description": "A high-end graphics card for a smooth and immersive 4K gaming experience. It supports Ray Tracing and DLSS for uncompromised visual quality.",
+      "price": 1200,
+      "image": [
+        "/images/gpu_4080_01.png",
+        "/images/gpu_4080_02.png"
+      ],
+      "category": "Components",
+      "subCategory": "Graphics Cards",
+      "sizes": [
+        {
+          "name": "12GB VRAM",
+          "price": 1200
+        },
+        {
+          "name": "16GB VRAM",
+          "price": 1350
+        }
+      ],
+      "date": 1716621345448,
+      "id": "5725"
+    },
+    {
+      "_id": "aaaac",
+      "name": "Fast SSD 1TB",
+      "description": "An NVMe Solid State Drive (SSD) for reduced loading times and a more responsive operating system. Ideal for gaming and professional applications.",
+      "price": 150,
+      "image": [
+        "/images/ssd_1tb_01.png",
+        "/images/ssd_1tb_02.png"
+      ],
+      "category": "Components",
+      "subCategory": "Storage",
+      "sizes": [
+        {
+          "name": "500GB",
+          "price": 95
+        },
+        {
+          "name": "1TB",
+          "price": 150
+        },
+        {
+          "name": "2TB",
+          "price": 250
+        }
+      ],
+      "date": 1716234545448,
+      "id": "e36f"
+    },
+    {
+      "_id": "aaaad",
+      "name": "Curved Gaming Monitor 27-inch",
+      "description": "A 27-inch curved gaming monitor with a 144Hz refresh rate and a 1ms response time. The curvature provides a more immersive viewing experience.",
+      "price": 350,
+      "image": [
+        "/images/monitor_curvo_01.png",
+        "/images/monitor_curvo_02.png"
+      ],
+      "category": "Peripherals",
+      "subCategory": "Monitors",
+      "sizes": [
+        {
+          "name": "27-inch",
+          "price": 350
+        },
+        {
+          "name": "32-inch",
+          "price": 480
+        }
+      ],
+      "date": 1716621345448,
+      "id": "afdf"
+    },
+    {
+      "_id": "aaaae",
+      "id": "f7cf",
+      "name": "RGB Mechanical Keyboard",
+      "description": "A mechanical keyboard with tactile switches, customizable per-key RGB backlighting, and an Italian layout. Perfect for long gaming and typing sessions.",
+      "price": 130,
+      "image": [
+        "/images/tastiera_rgb_01.png",
+        "/images/tastiera_rgb_02.png"
+      ],
+      "category": "Peripherals",
+      "subCategory": "Keyboards",
+      "sizes": [
+        {
+          "name": "IT Layout",
+          "price": 130
+        },
+        {
+          "name": "US Layout",
+          "price": 120
+        }
+      ],
+      "date": 1751709103738
+    },
+    {
+      "_id": "aaaaf",
+      "name": "Core i9 Processor",
+      "description": "A flagship CPU for extreme performance in gaming and content creation. It offers a high number of cores and threads for unprecedented multitasking.",
+      "price": 650,
+      "image": [
+        "/images/cpu_i9_01.png",
+        "/images/cpu_i9_02.png"
+      ],
+      "category": "Components",
+      "subCategory": "Processors",
+      "sizes": [
+        {
+          "name": "12-core",
+          "price": 650
+        },
+        {
+          "name": "16-core",
+          "price": 780
+        }
+      ],
+      "date": 1716635000000,
+      "id": "b8d1"
+    },
+    {
+      "_id": "aaaag",
+      "id": "a9e2",
+      "name": "Ryzen 7 Processor",
+      "description": "A versatile CPU with an excellent price-to-performance ratio, ideal for both gaming and productivity. Based on Zen 4 architecture.",
+      "price": 450,
+      "image": [
+        "/images/cpu_ryzen7_01.png",
+        "/images/cpu_ryzen7_02.png"
+      ],
+      "category": "Components",
+      "subCategory": "Processors",
+      "sizes": [
+        {
+          "name": "8-core",
+          "price": 450
+        },
+        {
+          "name": "12-core",
+          "price": 520
+        }
+      ],
+      "date": 1751709519785
+    },
+    {
+      "_id": "aaaah",
+      "name": "Z790 Motherboard",
+      "description": "An ATX motherboard for Intel processors, with support for DDR5 memory, PCIe 5.0 slots, and Wi-Fi 6E connectivity.",
+      "price": 320,
+      "image": [
+        "/images/mobo_z790_01.png",
+        "/images/mobo_z790_02.png"
+      ],
+      "category": "Components",
+      "subCategory": "Motherboards",
+      "sizes": [
+        {
+          "name": "ATX",
+          "price": 320
+        },
+        {
+          "name": "Micro-ATX",
+          "price": 290
+        }
+      ],
+      "date": 1716635200000,
+      "id": "f4c3"
+    },
+    {
+      "_id": "aaaai",
+      "name": "B650 Motherboard",
+      "description": "A motherboard for AMD Ryzen processors, ideal for mid-range builds. It offers excellent stability and a full feature set.",
+      "price": 240,
+      "image": [
+        "/images/mobo_b650_01.png",
+        "/images/mobo_b650_02.png"
+      ],
+      "category": "Components",
+      "subCategory": "Motherboards",
+      "sizes": [
+        {
+          "name": "ATX",
+          "price": 240
+        }
+      ],
+      "date": 1716635300000,
+      "id": "d2b4"
+    },
+    {
+      "_id": "aaaaj",
+      "name": "DDR5 32GB RAM Kit",
+      "description": "A 32GB DDR5 RAM kit (2x16GB) at 6000MHz, featuring aluminum heat spreaders and RGB lighting.",
+      "price": 180,
+      "image": [
+        "/images/ram_ddr5_01.png",
+        "/images/ram_ddr5_02.png"
+      ],
+      "category": "Components",
+      "subCategory": "RAM Memory",
+      "sizes": [
+        {
+          "name": "32GB",
+          "price": 180
+        },
+        {
+          "name": "64GB",
+          "price": 340
+        }
+      ],
+      "date": 1716635400000,
+      "id": "c1a5"
+    },
+    {
+      "_id": "aaaak",
+      "name": "850W Gold Power Supply",
+      "description": "A fully modular 850W power supply with an 80 Plus Gold certification for high energy efficiency and greater system stability.",
+      "price": 160,
+      "image": [
+        "/images/psu_850w_01.png"
+      ],
+      "category": "Components",
+      "subCategory": "Power Supplies",
+      "sizes": [
+        {
+          "name": "850W",
+          "price": 160
+        },
+        {
+          "name": "1000W",
+          "price": 195
+        }
+      ],
+      "date": 1716635500000,
+      "id": "b096"
+    },
+    {
+      "_id": "aaaal",
+      "name": "Mid-Tower Tempered Glass Case",
+      "description": "A mid-tower PC case with an elegant design, a tempered glass side panel, and three pre-installed RGB fans for optimal airflow.",
+      "price": 110,
+      "image": [
+        "/images/case_midtower_01.png"
+      ],
+      "category": "Components",
+      "subCategory": "Cases",
+      "sizes": [
+        {
+          "name": "Black",
+          "price": 110
+        },
+        {
+          "name": "White",
+          "price": 115
+        }
+      ],
+      "date": 1716635600000,
+      "id": "a987"
+    },
+    {
+      "_id": "aaaam",
+      "name": "Dual-Tower Air Cooler",
+      "description": "An air CPU cooler with a dual-tower design and two silent fans, ensuring excellent cooling even under load.",
+      "price": 80,
+      "image": [
+        "/images/cooler_air_01.png"
+      ],
+      "category": "Components",
+      "subCategory": "Cooling Systems",
+      "sizes": [
+        {
+          "name": "120mm",
+          "price": 80
+        },
+        {
+          "name": "140mm",
+          "price": 90
+        }
+      ],
+      "date": 1716635700000,
+      "id": "f876"
+    },
+    {
+      "_id": "aaaan",
+      "id": "e765",
+      "name": "240mm AIO Liquid Cooler",
+      "description": "An All-In-One (AIO) liquid cooling system with a 240mm radiator and RGB fans, for superior thermal performance and an eye-catching look.",
+      "price": 140,
+      "image": [
+        "/images/cooler_aio_01.png"
+      ],
+      "category": "Components",
+      "subCategory": "Cooling Systems",
+      "sizes": [
+        {
+          "name": "240mm",
+          "price": 140
+        },
+        {
+          "name": "360mm",
+          "price": 180
+        }
+      ],
+      "date": 1751710114094
+    },
+    {
+      "_id": "aaaao",
+      "name": "Lightweight Gaming Mouse",
+      "description": "An ultralight gaming mouse with a high-precision optical sensor, 6 programmable buttons, and RGB lighting.",
+      "price": 60,
+      "image": [
+        "/images/mouse_gaming_01.png"
+      ],
+      "category": "Peripherals",
+      "subCategory": "Mouse",
+      "sizes": [
+        {
+          "name": "Black",
+          "price": 60
+        },
+        {
+          "name": "White",
+          "price": 65
+        }
+      ],
+      "date": 1716635900000,
+      "id": "d654"
+    },
+    {
+      "_id": "aaaap",
+      "name": "7.1 Wireless Gaming Headset",
+      "description": "A wireless gaming headset with 7.1 surround sound, a noise-canceling microphone, and a long-lasting battery.",
+      "price": 120,
+      "image": [
+        "/images/headset_gaming_01.png"
+      ],
+      "category": "Peripherals",
+      "subCategory": "Headsets",
+      "sizes": [
+        {
+          "name": "Wireless",
+          "price": 120
+        },
+        {
+          "name": "Wired",
+          "price": 90
+        }
+      ],
+      "date": 1716636000000,
+      "id": "c543"
+    },
+    {
+      "_id": "aaaaq",
+      "name": "Full HD 1080p Webcam",
+      "description": "A webcam with Full HD 1080p resolution, a built-in stereo microphone, and autofocus, perfect for high-quality streaming and video calls.",
+      "price": 70,
+      "image": [
+        "/images/webcam_1080p_01.png"
+      ],
+      "category": "Peripherals",
+      "subCategory": "Webcams",
+      "sizes": [
+        {
+          "name": "1080p",
+          "price": 70
+        },
+        {
+          "name": "4K",
+          "price": 130
+        }
+      ],
+      "date": 1716636100000,
+      "id": "b432"
+    },
+    {
+      "_id": "aaaar",
+      "name": "Blade 15 Gaming Laptop",
+      "description": "A thin and powerful gaming laptop with a 144Hz screen, dedicated graphics card, and RGB keyboard. Ideal for gaming on the go.",
+      "price": 2200,
+      "image": [
+        "/images/laptop_blade15_01.png"
+      ],
+      "category": "Computers",
+      "subCategory": "Laptops",
+      "sizes": [
+        {
+          "name": "16GB RAM / 1TB SSD",
+          "price": 2200
+        },
+        {
+          "name": "32GB RAM / 2TB SSD",
+          "price": 2600
+        }
+      ],
+      "date": 1716636200000,
+      "id": "a321"
+    },
+    {
+      "_id": "aaaas",
+      "name": "Swift 14 Ultrabook",
+      "description": "A lightweight and compact ultrabook with excellent battery life, perfect for productivity and entertainment on the move.",
+      "price": 950,
+      "image": [
+        "/images/ultrabook_swift14_01.png"
+      ],
+      "category": "Computers",
+      "subCategory": "Laptops",
+      "sizes": [
+        {
+          "name": "8GB RAM / 512GB SSD",
+          "price": 950
+        },
+        {
+          "name": "16GB RAM / 1TB SSD",
+          "price": 1150
+        }
+      ],
+      "date": 1716636300000,
+      "id": "f210"
+    },
+    {
+      "_id": "aaaat",
+      "name": "4TB External Hard Drive",
+      "description": "A 4TB external hard drive with USB 3.0 connectivity for easy and fast backup of large amounts of data.",
+      "price": 100,
+      "image": [
+        "/images/hdd_external_4tb_01.png"
+      ],
+      "category": "Components",
+      "subCategory": "Storage",
+      "sizes": [
+        {
+          "name": "2TB",
+          "price": 70
+        },
+        {
+          "name": "4TB",
+          "price": 100
+        },
+        {
+          "name": "8TB",
+          "price": 180
+        }
+      ],
+      "date": 1716636400000,
+      "id": "e109"
+    }
+  ],
+  "users": [
+    {
+      "id": "a349",
+      "name": "Admin",
+      "email": "admin@mikehublab.com",
+      "password": "Admin123"
+    },
+    {
+      "id": "c146",
+      "name": "user",
+      "email": "user@test.it",
+      "password": "user123"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+/*----Importazione delle risorse esterne (Google Fonts e Tailwind CSS)----*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@import "tailwindcss";
+
+/*----Imposta i colori di base (palette chiara) per il corpo della pagina----*/
+body {
+    background-color: #f1f5f9; 
+    color: #1e293b;            
+}
+
+/*----Stili globali e reset----*/
+a.active hr {
+    display: none;
+}
+* {
+    font-family: Outfit;
+}
+
+/*----Classe di utilità per applicare il font 'Prata'----*/
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*----Nasconde la barra di scorrimento del browser----*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*----Stili specifici per dispositivi mobili (fino a 640px)----*/
+@media (max-width: 640px) {
+    /*----Evidenzia il link attivo nella sidebar su mobile----*/
+    a.active {
+        background-color: #dbeafe; 
+        color: #1d4ed8;            
+    }
+}
