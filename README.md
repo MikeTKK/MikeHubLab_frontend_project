@@ -32,7 +32,7 @@
     -   [react-toastify](https://fkhadra.github.io/react-toastify/introduction) per visualizzare notifiche all'utente.
 
 ## Struttura del Progetto
-
+```
 ├── frontend/
 │   ├── public/
 │   │   ├── images/       # Immagini dei prodotti
@@ -48,7 +48,7 @@
 │   └── index.css
 ├── db.json               # Database per json-server
 └── README.md             # Questo file
-
+```
 ## Installazione e Avvio
 
 Per eseguire il progetto in locale, segui questi passaggi.
